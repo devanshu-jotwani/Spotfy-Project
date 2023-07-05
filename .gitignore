@@ -1,0 +1,27 @@
+# Base folder (root of the project)
+node_modules/
+build/
+.env
+
+# Server folder
+server/node_modules/
+server/dist/
+
+# Client folder
+client/node_modules/
+client/build/
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
